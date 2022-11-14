@@ -3,24 +3,26 @@
     
   <HeaderComponent/>
   <main>
+  <div class="container">
+  <SearchBarComponent/>
   <MainComponent/>
+  </div> 
   </main>
 
 
 </template>
 
 <script>
+import axios from 'axios';
 import HeaderComponent from './components/HeaderComponent.vue';
 import MainComponent from './components/MainComponent.vue';
+import SearchBarComponent from './components/SearchBarComponent.vue';
 
   export default {
-    components: { HeaderComponent, MainComponent }
+    components: { HeaderComponent, MainComponent, SearchBarComponent }
 }
 </script>
 
 <style lang="scss" scoped>
-  body{
-    height: 100vh;
-    background-color: #2E3A46;
-  }
+  
 </style>

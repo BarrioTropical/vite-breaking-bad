@@ -4,18 +4,11 @@
     Breaking Bad Api
     </div>
 
-    <div class="container pt-3">
-        <select name="category" id="category">
-    <option value="null">Select category</option>
-    <option value="null">Select category</option>
-    <option value="null">Select category</option>
-    <option value="null">Select category</option>
-  </select>
-    </div>
     </header>
 </template>
 
 <script>
+
     export default {
         name: 'HeaderComponent'
     }

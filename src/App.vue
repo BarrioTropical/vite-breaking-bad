@@ -1,8 +1,12 @@
 <template>
+
+    
   <HeaderComponent/>
   <main>
   <MainComponent/>
   </main>
+
+
 </template>
 
 <script>
@@ -15,5 +19,8 @@ import MainComponent from './components/MainComponent.vue';
 </script>
 
 <style lang="scss" scoped>
-
+  body{
+    height: 100vh;
+    background-color: #2E3A46;
+  }
 </style>

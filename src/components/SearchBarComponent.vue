@@ -31,14 +31,6 @@ import { store } from '../store';
         searchCharacters() {
             this.$emit('filterchar');
 
-            axios.get('https://www.breakingbadapi.com/api/characters',store.options).then((res)=>{
-                console.log(res.data);
-                setTimeout(()=>{
-                    store.loading = false;
-                    store.characters = [...res.data];
-                },2000);
-            })
-
         },
         resetSearch() {
             store.search.category = '';
@@ -47,6 +39,7 @@ import { store } from '../store';
             
         }
     }
+
 
         }
 </script>

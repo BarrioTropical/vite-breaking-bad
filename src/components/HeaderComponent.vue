@@ -1,9 +1,11 @@
 <template>
+    
     <header>
-    <div class="logo p-3">
-    Breaking Bad Api
-    </div>
-
+        <div>
+            <a href="#">
+                <img src="../../public/logo.png" width="50" alt="Breaking Bad"> Breaking Bad Api
+            </a>
+        </div>
     </header>
 </template>
 
@@ -27,6 +29,13 @@
     header{
     background-color: #2E3A46;
     padding: 40px;
+
+        a{
+            color: white;
+            font-size: 30px;
+            text-decoration: none;
+        }
+
   }
 
 </style>

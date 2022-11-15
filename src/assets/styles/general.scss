@@ -1,8 +1,13 @@
-
+@use './_partials/variables' as *;
 body{
     background-color: #2E3A46;
 }
 
-.container{
-    max-width: 1170px;
+img{
+    max-width: 100%;
+}
+
+.card-list-container {
+    background-color: white !important;
+    padding: 40px;
 }

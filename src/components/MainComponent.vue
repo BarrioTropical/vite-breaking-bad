@@ -1,7 +1,6 @@
 <template>
     <div class="container">
         <div class="whitebox">
-            <div class="result-box">Found XX chaacters</div>
         
         </div>
     </div>
@@ -9,7 +8,10 @@
 
 <script>
     export default {
-        name: 'MainComponent'
+        name: 'MainComponent',
+        
+
+        
     }
 </script>
 
